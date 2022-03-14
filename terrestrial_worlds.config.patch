@@ -1,0 +1,21 @@
+[
+	[
+		{
+			"op" : "test",
+			"path" : "/planetTypes/garden/globalDirectives",
+			"inverse" : true
+		},
+		{
+			"op" : "add",
+			"path" : "/planetTypes/garden/globalDirectives",
+			"value" : []
+		}
+	],
+	[
+		{
+			"op" : "add",
+			"path" : "/planetTypes/garden/globalDirectives/-",
+			"value" : "?flipxy"
+		}
+	]
+]
